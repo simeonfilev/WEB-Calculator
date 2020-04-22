@@ -5,14 +5,16 @@
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
 
-    <servlet>
+<servlet>
         <servlet-name>calculator</servlet-name>
         <servlet-class>com.sap.acad.calculatr_web.CalculatorServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>calculator</servlet-name>
-        <url-pattern>/**</url-pattern>
+        <url-pattern></url-pattern>
     </servlet-mapping>
+
+
 </web-app>
 
